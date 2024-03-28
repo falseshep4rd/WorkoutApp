@@ -25,7 +25,4 @@ public class Workout {
 
     @OneToMany(mappedBy = "workout")
     private List<Exercise> exercises;
-
-    //TODO: check the relationships, one to many is right, but i need not to delete the exercises
-
 }
